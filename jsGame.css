@@ -5,7 +5,7 @@ body {
 .body {
 	width: 80%;
 	margin: 0 auto;
-	margin-top: 15%;
+	margin-top: 5%;
 }
 
 button {
@@ -24,7 +24,6 @@ button {
 h1 {
 	font-family: 'Barrio', cursive;
 	font-size: 5em;
-	padding-left: 20%;
 }
 
 #js {

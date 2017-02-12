@@ -6,7 +6,7 @@ function print (message) {
 
 function playGame () {
     var userChoice = prompt("Do you choose rock, paper, scissors or water balloon?");
-
+    var userChoiceA = userChoice.toLowerCase();
 
     var computerChoice = Math.random();
 
@@ -81,7 +81,7 @@ function playGame () {
 
     html += "<p>Computer chose: " + computerChoice + "</p>"
 
-    html += "<p>" + compare(userChoice, computerChoice) + "</p>"
+    html += "<p>" + compare(userChoiceA, computerChoice) + "</p>"
 
     print(html);
 }
